@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+
+  background: url('./wallpaper.jpg');
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  padding: 128px;
+  border-radius: 16px;
+  backdrop-filter: blur(4px) grayscale(60%);
+
+  color: #171717;
+  text-align: center;
+  font-family: -apple-system, sans-serif;
+}
